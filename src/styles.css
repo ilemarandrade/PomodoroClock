@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  font-family: "Digital";
+}
+p {
+  margin: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e555c;
+  color: white;
+  font-family: "Righteous", cursive;
+  text-align: center;
+  margin: 0px;
+}
+h1 {
+  font-size: 8vh;
+}
+#root {
+  height: 100vh;
+  width: 100vw;
+  padding: 0px 5vw;
+}
+i {
+  font-size: 30px !important;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.centradoPerfecto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.handler {
+  font-size: 40px !important;
+}
+#display {
+  border: #21212b 10px solid;
+  border-radius: 40px;
+  height: 28vh;
+  width: 25vw;
+}
+#break-label {
+  font-size: 4vh;
+}
+#session-label {
+  font-size: 4vh;
+}
+#breakSession {
+  height: 15vh;
+  margin-bottom: 5vh;
+}
+#timer-label {
+  margin: 0px;
+  font-size: 8vh;
+}
+#time-left {
+  margin: 0px;
+  font-size: 80px;
+  font-family: LcdD;
+}
+#break {
+  margin-right: 10vw;
+}
+#break-length {
+  font-size: 30px;
+  margin: 0px 5px;
+}
+#break-increment {
+  height: 30px;
+  width: 30px;
+}
+#break-decrement {
+  height: 30px;
+  width: 30px;
+}
+#session-increment {
+  height: 30px;
+  width: 30px;
+}
+#session-decrement {
+  height: 30px;
+  width: 30px;
+}
+#session-length {
+  font-size: 30px;
+  margin: 0px 5px;
+}
+#botones {
+  margin-top: 20px;
+}
+#start_stop {
+  margin-right: 30px;
+}
+#reset {
+}
+@font-face {
+  font-family: "LcdD";
+  src: url("//db.onlinewebfonts.com/t/005a0a44732a2481862cdc95182ed8dd.eot");
+  src: url("//db.onlinewebfonts.com/t/005a0a44732a2481862cdc95182ed8dd.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/005a0a44732a2481862cdc95182ed8dd.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/005a0a44732a2481862cdc95182ed8dd.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/005a0a44732a2481862cdc95182ed8dd.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/005a0a44732a2481862cdc95182ed8dd.svg#LcdD")
+      format("svg");
+}
+@media only screen and (max-width: 600px) {
+  #display {
+    height: 30vh;
+    width: 60vw;
+  }
+  #breakSession {
+    margin-bottom: 4vh;
+  }
+}
