@@ -166,7 +166,7 @@ class App extends React.Component {
           />
         </Helmet>
        */}
-        <h1>Reloj Pomadoro</h1>
+        <h1>Reloj Pomodoro</h1>
         <div id="breakSession" className="flex-row">
           <div id="break" className="flex-column">
             <p id="break-label">Break Lenght</p>
